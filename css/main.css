@@ -1,0 +1,50 @@
+
+body{
+    box-sizing:border-box;
+    color:#303030;
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*clases reutilizables*/
+.text-uppercase{
+    text-transform:uppercase;
+}
+
+/*clases específicas*/
+.box-header{
+    display:inline-block;
+}
+.logo-header{
+    width:200px;
+}
+
+li{
+    display:inline;
+    list-style:none;
+}
+
+li a{
+    text-decoration:none;
+    color:inherit;
+}
+header{
+    position:relative;
+}
+
+nav{
+    position:absolute;
+    right:5%;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+section{
+    text-align:center;
+}
+
+div{
+    display:inline-block;
+    width:33%;
+}
